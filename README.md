@@ -2,6 +2,8 @@
 Generates javascript code based on specified grammar for lexer, parser, and tokens.
 
 ## Installation
+*This is a NPM wrapper of a ANTLR 4 code generation tool. So you will need to have a modern version of Java (>= JRE 1.6) to use it.*
+
 ```
     npm install --save-dev antlr4js-cli
 ```
@@ -37,7 +39,7 @@ Let's suppose that your grammar is named  "MyGrammar".
 If your run: 
 
 ```
-  antlr4js  -Dlanguage=JavaScript -visitor  ./MyGrammar.g4 -o out
+  antlr4js -visitor  ./MyGrammar.g4 -o out
 ```
 The tool will have generated the following files in out directory for you:
 ```

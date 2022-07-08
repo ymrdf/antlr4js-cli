@@ -1,6 +1,6 @@
 {
   "name": "antlr4js-cli",
-  "version": "0.0.1-alpha-1",
+  "version": "0.0.1",
   "description": "ANTLR 4 command line tool for javascript",
   "main": "index.js",
   "repository": {
